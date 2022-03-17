@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.pages.home.HomeFragment">
+    tools:context=".ui.screen.home.HomeFragment">
 
     <FrameLayout
         android:layout_width="match_parent"

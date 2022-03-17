@@ -7,9 +7,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.dumdumbich.proto.handyman.R
 import com.dumdumbich.proto.handyman.databinding.ActivityMainBinding
-import com.dumdumbich.proto.handyman.ui.pages.home.HomeFragment
-import com.dumdumbich.proto.handyman.ui.pages.scheduler.SchedulerFragment
-import com.dumdumbich.proto.handyman.ui.pages.setting.SettingFragment
+import com.dumdumbich.proto.handyman.ui.screen.home.HomeFragment
+import com.dumdumbich.proto.handyman.ui.screen.scheduler.SchedulerFragment
+import com.dumdumbich.proto.handyman.ui.screen.setting.SettingFragment
 
 
 class MainActivity : AppCompatActivity() {

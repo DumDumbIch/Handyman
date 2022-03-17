@@ -1,4 +1,4 @@
-package com.dumdumbich.proto.handyman.ui.pages.home
+package com.dumdumbich.proto.handyman.ui.screen.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

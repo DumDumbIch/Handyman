@@ -1,16 +1,16 @@
-package com.dumdumbich.proto.handyman.ui.pages.setting
+package com.dumdumbich.proto.handyman.ui.screen.scheduler
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.dumdumbich.proto.handyman.databinding.FragmentSettingBinding
+import com.dumdumbich.proto.handyman.databinding.FragmentSchedulerBinding
 import com.dumdumbich.proto.handyman.ui.base.BaseFragment
 
 
-class SettingFragment : BaseFragment() {
+class SchedulerFragment : BaseFragment() {
 
-    private var _ui: FragmentSettingBinding? = null
+    private var _ui: FragmentSchedulerBinding? = null
     private val ui get() = _ui!!
 
 
@@ -18,11 +18,11 @@ class SettingFragment : BaseFragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View = FragmentSettingBinding.inflate(inflater, container, false).root
+    ): View = FragmentSchedulerBinding.inflate(inflater, container, false).root
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        _ui = FragmentSettingBinding.bind(view)
+        _ui = FragmentSchedulerBinding.bind(view)
     }
 
     override fun onDestroyView() {

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.pages.setting.SettingFragment">
+    tools:context=".ui.screen.setting.SettingFragment">
 
     <TextView
         android:id="@+id/setting_fragment_text_view"

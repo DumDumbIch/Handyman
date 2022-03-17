@@ -1,4 +1,4 @@
-package com.dumdumbich.proto.handyman.ui.pages.home
+package com.dumdumbich.proto.handyman.ui.screen.home
 
 import android.os.Bundle
 import android.view.LayoutInflater

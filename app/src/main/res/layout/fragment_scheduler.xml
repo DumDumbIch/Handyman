@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.pages.scheduler.SchedulerFragment">
+    tools:context=".ui.screen.scheduler.SchedulerFragment">
 
     <TextView
         android:id="@+id/scheduler_fragment_text_view"
