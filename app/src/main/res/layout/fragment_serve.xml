@@ -5,15 +5,16 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.screen.scheduler.SchedulerFragment">
+    tools:context=".ui.screen.serve.ServeFragment">
 
-    <TextView
-        android:id="@+id/scheduler_fragment_text_view"
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/serve_tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        tools:text="Scheduler Fragment" />
+        android:layout_height="wrap_content"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/serve_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>

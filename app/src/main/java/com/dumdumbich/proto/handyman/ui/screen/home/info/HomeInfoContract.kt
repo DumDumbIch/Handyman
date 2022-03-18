@@ -1,10 +1,10 @@
-package com.dumdumbich.proto.handyman.ui.screen.home
+package com.dumdumbich.proto.handyman.ui.screen.home.info
 
 import android.os.Parcelable
 import androidx.lifecycle.LiveData
 import com.dumdumbich.proto.handyman.domain.entity.Weather
 
-class HomeContract {
+class HomeInfoContract {
 
     interface ViewState : Parcelable
 

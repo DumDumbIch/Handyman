@@ -8,8 +8,8 @@ import androidx.fragment.app.FragmentManager
 import com.dumdumbich.proto.handyman.R
 import com.dumdumbich.proto.handyman.databinding.ActivityMainBinding
 import com.dumdumbich.proto.handyman.ui.screen.home.HomeFragment
-import com.dumdumbich.proto.handyman.ui.screen.scheduler.SchedulerFragment
-import com.dumdumbich.proto.handyman.ui.screen.setting.SettingFragment
+import com.dumdumbich.proto.handyman.ui.screen.serve.ServeFragment
+import com.dumdumbich.proto.handyman.ui.screen.tune.TuneFragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -33,12 +33,12 @@ class MainActivity : AppCompatActivity() {
                     showFragment(HomeFragment())
                     true
                 }
-                R.id.menu_item_navigation_scheduler -> {
-                    showFragment(SchedulerFragment())
+                R.id.menu_item_navigation_tune -> {
+                    showFragment(TuneFragment())
                     true
                 }
-                R.id.menu_item_navigation_setting -> {
-                    showFragment(SettingFragment())
+                R.id.menu_item_navigation_serve -> {
+                    showFragment(ServeFragment())
                     true
                 }
                 else -> false

@@ -1,4 +1,4 @@
-package com.dumdumbich.proto.handyman.ui.screen.home
+package com.dumdumbich.proto.handyman.ui.screen.home.info
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,8 +7,8 @@ import com.dumdumbich.proto.handyman.domain.entity.Weather
 import com.dumdumbich.proto.handyman.domain.usecase.WeatherUseCase
 
 
-class HomeViewModel(private val weatherDataSource: WeatherUseCase) : ViewModel(),
-    HomeContract.ViewModel {
+class HomeInfoViewModel(private val weatherDataSource: WeatherUseCase) : ViewModel(),
+    HomeInfoContract.ViewModel {
 
     private data class HomeViewState(
         var weather: Weather = Weather(99, 999, 99)

@@ -7,13 +7,13 @@
         android:title="Home" />
 
     <item
-        android:id="@+id/menu_item_navigation_scheduler"
-        android:icon="@drawable/ic_baseline_schedule"
-        android:title="Scheduler" />
+        android:id="@+id/menu_item_navigation_tune"
+        android:icon="@drawable/ic_baseline_tune"
+        android:title="Tune" />
 
     <item
-        android:id="@+id/menu_item_navigation_setting"
-        android:icon="@drawable/ic_baseline_settings"
-        android:title="Setting" />
+        android:id="@+id/menu_item_navigation_serve"
+        android:icon="@drawable/ic_baseline_build"
+        android:title="Serve" />
 
 </menu>
