@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.content.res.AppCompatResources
 import com.dumdumbich.proto.handyman.R
 import com.dumdumbich.proto.handyman.databinding.FragmentServeBinding
 import com.dumdumbich.proto.handyman.ui.base.BaseFragment
@@ -39,7 +40,7 @@ class ServeFragment : BaseFragment() {
 
         TabLayoutMediator(ui.serveTabLayout, ui.serveViewPager) { tab, position ->
             fragments[position].let { factory ->
-                tab.icon = resources.getDrawable(factory.iconResId)
+                tab.icon = AppCompatResources.getDrawable(requireContext(),factory.iconResId)
             }
         }.attach()
     }
