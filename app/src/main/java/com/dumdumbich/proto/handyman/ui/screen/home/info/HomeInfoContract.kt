@@ -6,7 +6,7 @@ import com.dumdumbich.proto.handyman.domain.entity.Weather
 
 class HomeInfoContract {
 
-    interface ViewState : Parcelable
+    interface ViewState // : Parcelable
 
     interface ViewModel {
         val weather: LiveData<Weather>
